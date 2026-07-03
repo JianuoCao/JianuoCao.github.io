@@ -139,3 +139,12 @@ span.highlight {
   color: #f09228;
   font-weight: 600;
 }
+
+.visitor-map {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+.visitor-map .mapmyvisitors-loading {
+  display: none !important;
+}
