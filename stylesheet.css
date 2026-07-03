@@ -140,18 +140,17 @@ span.highlight {
   font-weight: 600;
 }
 
-.visitor-map {
-  height: 70px;
-  left: 0;
+#mapmyvisitors-widget {
+  height: 70px !important;
+  left: 0 !important;
   margin: 0 !important;
-  max-width: 70px !important;
-  opacity: 0;
-  overflow: hidden;
+  opacity: 0 !important;
+  overflow: hidden !important;
   pointer-events: none !important;
-  position: absolute;
+  position: absolute !important;
   width: 70px !important;
 }
 
-.visitor-map .mapmyvisitors-loading {
+#mapmyvisitors-widget .mapmyvisitors-loading {
   display: none !important;
 }
